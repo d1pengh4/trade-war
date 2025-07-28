@@ -1,0 +1,35 @@
+.news-ticker-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #c00;
+  color: white;
+  overflow: hidden;
+  padding: 8px 0;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.news-ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: ticker 40s linear infinite;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.news-ticker span {
+  margin: 0 40px;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
