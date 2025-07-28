@@ -2,6 +2,8 @@
 
 A satirical canvas-based web game where you dodge tariff bombs thrown by Trump.  
 Simple mechanics, political humor.
+play now!
+[trade-war.vercel.app](https://trade-war.vercel.app)
 
 ## 🎮 Gameplay
 
